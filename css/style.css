@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.contenedor{
+    background-color: aqua;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+header{
+    background-color: brown;
+    display: flex;
+    color: black;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+}
+.elementos{
+    display: flex;
+    background-color: blanchedalmond;
+}
+.logo{
+    background-color: chocolate;
+    font-size: 20px;
+    font-weight: 600;
+}
+.login{
+    border: 1px solid chocolate;
+    border-radius: 20px;
+    padding: 5px 10px;
+    
+}
+
+.text_img{
+    height: 100%;
+    display: flex;
+}
+
+.text{
+    background-color: blue;
+    width: 50%;
+}
+
+.img{
+    width: 50%;
+    height: 1005;
+}
+
+.img img{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 50%;
+    margin: 20px 0 20px 20px;
+}
+
+.descripcion{
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.suscribir{
+    margin: 20px 0 20px 20px;
+    display: flex;
+}
+
+input{
+    padding: 10px 10px 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    border: ;
+
+}
+
+input:
+input:focus{
+    border: 1px solid ;
+}
+
+button{
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 768px)
